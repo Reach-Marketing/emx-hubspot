@@ -1,0 +1,91 @@
+/*=============================================================================
+=========== Brand Level Styling for placement in document style tag ===========
+===============================================================================*/
+
+/*control button styles for all submit buttons*/
+
+input.hs-button[type="submit"] {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 12px;
+    position: relative;
+    text-align: center;
+    transition: all 0.15s linear;
+    background-color: #003B4D;
+    border-color: #003B4D;
+    color: #fff;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
+    padding: 12px 24px;
+}
+
+input.hs-button[type="submit"]:hover:not(.inactive) {
+    background: #003B4D;
+    border-color: #003B4D;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 12px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+input.hs-button[type="submit"]:hover:not(.inactive) {
+    background: #003B4D;
+    border-color: #003B4D;
+}
+
+.hs-button:hover,
+.hs-button:focus {
+  background-color: #003B4D;
+  border-color: #003B4D;
+}
+
+.hs-button:active {
+  background-color: #003B4D;
+  border-color: #003B4D;
+}
+
+
+/*globally assign color to links*/
+body a,
+#sidebar a {
+    color: #003B4D;
+}	
+
+body a:hover,
+#sidebar a:hover{
+    color: #003B4D;
+}
+
+/*control padding below error messages below inputs*/
+form ul.no-list.hs-error-msgs.inputs-list {
+    padding: 0!important;
+}
+
+/*customize the form in the sidebar avoiding default wp theme styles on the sidebar*/
+
+#sidebar input.text, #sidebar input.title, #sidebar input[type=text], select, #sidebar textarea, #sidebar[type=email] {
+    padding: 10px 15px;
+}
+/*override divi styling for list padding*/
+.entry-content ul.inputs-list {
+    margin-bottom: 0;
+    padding: 0 0 0 1em;
+}
+/*underline specific links*/
+a[title="terms-of-use"], a[title="privacy-policy"] {
+    text-decoration: underline;
+}
+
+/*enforce ul padding overriding styles from site*/
+
+.et-l--body .input ul {
+
+    padding: 0 0 0 1em;
+
+}
+
