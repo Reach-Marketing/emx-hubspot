@@ -128,3 +128,11 @@ body input.text, body input.title, body input[type=text], body select, body inpu
     padding: 0 0 0 1em;
 }
 
+/*reset form width override form specific styles*/
+form fieldset .hs-input:not([type=checkbox]):not([type=radio]) {
+    width: 100%!important;
+}
+
+form fieldset {
+    max-width: 100%!important;
+}
