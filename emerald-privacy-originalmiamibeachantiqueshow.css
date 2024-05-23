@@ -1,6 +1,19 @@
+/*Last Updated 5/23/24*/
 /*=============================================================================
 =========== Brand Level Styling for placement in document style tag ===========
 ===============================================================================*/
+/*assign brand level default link colors*/
+
+body .hbspt-form a {
+    color: #006350!important;
+}
+
+body .hbspt-form a {
+    color: #006350!important;
+}
+body .hbspt-form a:hover {
+    color: #006350!important;
+}
 
 /*control button styles for all submit buttons*/
 
@@ -51,12 +64,12 @@ input.hs-button[type="submit"]:hover:not(.inactive) {
 
 
 /*globally assign color to links*/
-body a,
+
 #sidebar a {
     color: #006350;
 }	
 
-body a:hover,
+
 #sidebar a:hover{
     color: #006350;
 }
@@ -79,4 +92,24 @@ form ul.no-list.hs-error-msgs.inputs-list {
 /*underline specific links*/
 a[title="terms-of-use"], a[title="privacy-policy"] {
     text-decoration: underline;
+}
+/*force styles to override default sidebar styling*/
+body #sidebar input.text, body #sidebar input.title, body #sidebar input[type=text], body #sidebar select, #sidebar input[type=email],
+body input.text, body input.title, body input[type=text], body select, body input[type=email]{
+    height:40px;
+    padding:10px 15px;
+}
+
+/*enforce ul padding overriding styles from site*/
+.et-l--body .input ul {
+    padding: 0 0 0 1em;
+}
+
+/*reset form width override form specific styles*/
+form fieldset .hs-input:not([type=checkbox]):not([type=radio]) {
+    width: 100%!important;
+}
+
+form fieldset {
+    max-width: 100%!important;
 }
