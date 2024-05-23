@@ -4,8 +4,9 @@ window.addEventListener('message', event => {
       console.log(`${event.data.id}`);
       
       /* use query selector all in case multiple forms with same id */
-      let hsforms = document.querySelectorAll(`#hsForm_${event.data.id}`);
-
+      /* 5/23/2024 changed to starts with since hubspot lps append values to original structure */
+      let hsforms = document.querySelectorAll(`form[id^='hsForm_${event.data.id}']`);
+      
       if (hsforms.length === 0)
       {
        console.log("No form found: check that html is set to true");
