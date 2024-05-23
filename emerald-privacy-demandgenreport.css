@@ -4,14 +4,14 @@
 ===============================================================================*/
 /*assign brand level default link colors*/
 body .hbspt-form a {
-    color: #551A8B!important;
+    color: #449fd8!important;
 }
 
 body .hbspt-form a {
-    color: #551A8B!important;
+    color: #449fd8!important;
 }
 body .hbspt-form a:hover {
-    color: #551A8B!important;
+    color: #449fd8!important;
 }
 /*control button styles for all submit buttons*/
 
@@ -64,12 +64,12 @@ input.hs-button[type="submit"]:hover:not(.inactive) {
 /*globally assign color to links*/
 
 #sidebar a {
-    color: #551A8B;
+    color: #449fd8;
 }	
 
 
 #sidebar a:hover{
-    color: #551A8B;
+    color: #449fd8;
 }
 
 /*control padding below error messages below inputs*/
