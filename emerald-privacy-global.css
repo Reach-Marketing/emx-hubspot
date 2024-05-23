@@ -1,3 +1,4 @@
+/*Last Updated 5/23/24*/
 /*=================================================
 =============== Global Level Styling ===============
 ===================================================*/
@@ -17,6 +18,18 @@
         --hubspot specific classes
 */
 
+/*BEGIN General Rules*/
+
+/* set field widths on 3 column fieldsets*/
+body .hbspt-form fieldset.form-columns-3 .hs-form-field {
+  width: 33.3%;
+}
+
+body .hbspt-form p{font-weight:500;
+  font-size: 14px!important;
+  line-height: 20px;
+  color:inherit;
+}
 
 /* BEGIN default button styles*/
 
@@ -59,9 +72,12 @@ input.hs-button[type="submit"]:hover:not(.inactive) {
 
 
 /*DEFAULT link color*/
-body a {
+
+
+body .hbspt-form a {
     color: #0336cc;
 }
+
 
 /*button disabled status*/
 
@@ -74,7 +90,7 @@ input.hs-button[type="submit"][disabled]:hover  {
 }
 
 /*Force Show recptcha*/
-body .grecaptcha-badge {
+body .hbspt-form .grecaptcha-badge {
     visibility: visible!important;
 }
 
@@ -90,12 +106,15 @@ label.hs-form-booleancheckbox-display {
 }
 
 /*include standard padding for inputs*/
-body input.text, body input.title, body input[type=text], body select, body textarea, body input[type="email"] {
+
+
+body .hbspt-form input.text, body .hbspt-form input.title, body .hbspt-form input[type=text], body .hbspt-form select, body .hbspt-form textarea, body .hbspt-form input[type="email"], input[type="tel"] {
   padding: 10px 15px;
 }
 
 
-label {
+
+.hbspt-form label {
     font-size: 14px!important;
     width: 130px;
     color: #33475b;
@@ -151,6 +170,7 @@ label {
   line-height: initial;
   box-shadow: none;
 }
+
 select.is-placeholder {
   color: #bfbfbf;
 }
@@ -171,24 +191,26 @@ select.is-placeholder:focus {
   transition: border 0.2s linear;
 }
 
-body .hs-input:focus,
-body input.text:focus,
-body input.title:focus,
-body input[type="text"]:focus,
-body select:focus,
-body textarea:focus {
+
+body .hbspt-form .hs-input:focus,
+body .hbspt-form input.text:focus,
+body .hbspt-form input.title:focus,
+body .hbspt-form input[type="text"]:focus,
+body .hbspt-form select:focus,
+body .hbspt-form textarea:focus {
   outline: none;
   border-color: rgba(82, 168, 236, 0.8);
 }
 
 
-
 textarea.hs-input {
   height: auto;
 }
+
 select[multiple].hs-input {
   height: inherit;
 }
+
 input.hs-input.error,
 div.field.error input,
 div.field.error textarea,
@@ -197,6 +219,7 @@ textarea.hs-input.error,
 select.hs-input.error {
   border-color: #c87872;
 }
+
 input.hs-input.error:focus,
 div.field.error input:focus,
 div.field.error textarea:focus,
@@ -259,6 +282,7 @@ select.hs-input.error:focus {
 ul.no-list {
     list-style: none;
   }
+
   .field {
     margin-bottom: 18px;
   }
