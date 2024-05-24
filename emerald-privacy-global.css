@@ -1,4 +1,4 @@
-/*Last Updated 5/23/24*/
+/*Last Updated 5/24/24*/
 /*=================================================
 =============== Global Level Styling ===============
 ===================================================*/
@@ -108,7 +108,7 @@ label.hs-form-booleancheckbox-display {
 /*include standard padding for inputs*/
 
 
-body .hbspt-form input.text, body .hbspt-form input.title, body .hbspt-form input[type=text], body .hbspt-form select, body .hbspt-form textarea, body .hbspt-form input[type="email"], input[type="tel"] {
+body .hbspt-form input.text, body .hbspt-form input.title, body .hbspt-form input[type=text], body .hbspt-form select, body .hbspt-form textarea, body .hbspt-form input[type="email"], .hbspt-form input[type="tel"] {
   padding: 10px 15px;
 }
 
