@@ -1,7 +1,20 @@
-/*Last Updated 6/11/24*/
+/*Last updated 6/14/24*/
 /*=============================================================================
 =========== Brand Level Styling for placement in document style tag ===========
 ===============================================================================*/
+/*BEGIN styles to overrule preexisting site styles*/
+
+.hs-form-field input[type="text"], .hs-form-field input[type="email"], .hs-form-field input[type="password"], .hs-form-field input[type="url"]{
+    width:100%;
+    margin:0;
+}
+
+.error{
+    background:none;
+    margin:0 auto;}
+
+/*END styles to overrule preexisting site styles*/
+
 /*assign color to label links*/
 body .hbspt-form label a {
     color: #F1A023!important;
