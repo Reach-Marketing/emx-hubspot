@@ -10,7 +10,7 @@
 }
 
 .error{
-    background:none;
+    background:none!important;
     margin:0 auto;}
 
 /*END styles to overrule preexisting site styles*/
