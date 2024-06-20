@@ -187,16 +187,7 @@ input.hs-button[type="submit"]:hover:not(.inactive) {
 }
 
 
-/*globally assign color to links*/
 
-#sidebar a {
-    color: #00A1B1;
-}	
-
-
-#sidebar a:hover{
-    color: #00A1B1;
-}
 
 /*control padding below error messages below inputs*/
 form ul.no-list.hs-error-msgs.inputs-list {
