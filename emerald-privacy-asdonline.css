@@ -1,7 +1,60 @@
-/*Last Updated 5/23/24*/
+/*Last Updated 7/1/24*/
 /*=============================================================================
 =========== Brand Level Styling for placement in document style tag ===========
 ===============================================================================*/
+.hs-form-checkbox-display, .hs-form-radio-display {
+
+    gap: 1em!important;
+
+}
+
+
+
+
+label.hs-form-checkbox-display {
+
+    margin-top: 1em;
+
+}
+
+
+
+
+body form .legal-consent-container .hs-form-booleancheckbox-display>span{
+
+    margin-left: 0rem !important;
+
+}
+
+
+
+
+
+
+.hs-input[type="checkbox"], .hs-input[type="radio"] {
+
+    -webkit-appearance: auto!important;
+
+    appearance: auto!important;
+
+    margin:0 1rem 0 0!important;
+
+}
+
+
+
+
+label.hs-form-booleancheckbox-display{
+
+    display:grid!important;
+
+    gap: 1em!important;
+
+    grid-template-columns: 1em auto!important;
+
+}
+
+
 
 /*assign brand level default link colors*/
 body .hbspt-form a {
