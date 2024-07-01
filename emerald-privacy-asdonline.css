@@ -1,9 +1,13 @@
-/*Last Updated 7/1/24 4:14pm*/
+/*Last Updated 7/1/24 4:19pm*/
 /*=============================================================================
 =========== Brand Level Styling for placement in document style tag ===========
 ===============================================================================*/
 form .hs-fieldtype-checkbox label {
     height: auto;
+}
+body .hs-form input[type=checkbox]{
+    -webkit-appearance: auto;
+    appearance: auto;
 }
 
 
