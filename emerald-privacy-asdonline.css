@@ -1,34 +1,25 @@
-/*Last Updated 7/1/24*/
+/*Last Updated 7/1/24 4:14pm*/
 /*=============================================================================
 =========== Brand Level Styling for placement in document style tag ===========
 ===============================================================================*/
-.hs-form-checkbox-display, .hs-form-radio-display {
-
-    gap: 1em!important;
-
+form .hs-fieldtype-checkbox label {
+    height: auto;
 }
 
 
+.hs-form-checkbox-display, .hs-form-radio-display {
+    gap: 1em!important;
+}
 
 
 label.hs-form-checkbox-display {
-
     margin-top: 1em;
-
 }
-
-
 
 
 body form .legal-consent-container .hs-form-booleancheckbox-display>span{
-
     margin-left: 0rem !important;
-
 }
-
-
-
-
 
 
 .hs-input[type="checkbox"], .hs-input[type="radio"] {
@@ -40,7 +31,6 @@ body form .legal-consent-container .hs-form-booleancheckbox-display>span{
     margin:0 1rem 0 0!important;
 
 }
-
 
 
 
