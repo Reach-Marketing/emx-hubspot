@@ -174,17 +174,6 @@ body #et-boc .et-l .hs-form .hs-button:active,
 }
 
 
-/*globally assign color to links*/
-
-#sidebar a {
-    color: #551A8B;
-}	
-
-
-#sidebar a:hover{
-    color: #551A8B;
-}
-
 /*control padding below error messages below inputs*/
 form ul.no-list.hs-error-msgs.inputs-list {
     padding: 0!important;
