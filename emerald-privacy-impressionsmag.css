@@ -1,14 +1,34 @@
-/*Last Updated 7/11/24*/
+/*Last Updated 7/11/24* 3:07pm/
 /*=============================================================================
 =========== Brand Level Styling for placement in document style tag ===========
 ===============================================================================*/
-body #et-boc .et-l .hs-form .field:not(.hs-fieldtype-booleancheckbox) {
+#content .col-lg-7.content ul.inputs-list{
+    margin-left:0;
+    padding-left:0;
+  }
+  
+  .hbspt-form label.hs-form-checkbox-display span {
+      font-size: 14px !important;
+      width: 130px;
+      color: #33475b;
+      display: inline-block;
+      float: none;
+      width: auto;
+      font-weight: 500;
+      line-height: 20px;
+      padding-top: 0;
+      margin-bottom: 4px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+
+body #et-boc .et-l .et_pb_module .hs-form .field:not(.hs-fieldtype-booleancheckbox) {
     margin-bottom: 18px;
     margin-top:18px;
 }
 
 
-body #et-boc .et-l .hs-form .hs-input:not([type=checkbox]) {
+body #et-boc .et-l .et_pb_module .hs-form .hs-input:not([type=checkbox]) {
     display: inline-block;
     width: 100%;
     height: 40px;
@@ -25,12 +45,12 @@ body #et-boc .et-l .hs-form .hs-input:not([type=checkbox]) {
     -ms-border-radius: 3px;
     border-radius: 3px;
   }
-  body #et-boc .et-l .hs-input:not([type="file"]) {
+  body #et-boc .et-l .et_pb_module .hs-input:not([type="file"]) {
     background-color: #f5f8fa;
   }
 
-  body #et-boc .et-l .hs-form .hs-input[type="checkbox"],
-body #et-boc .et-l .hs-form .hs-input[type="radio"] {
+  body #et-boc .et-l .et_pb_module .hs-form .hs-input[type="checkbox"],
+body #et-boc .et-l .et_pb_module .hs-form .hs-input[type="radio"] {
   cursor: pointer;
   width: 16px;
   height: 13px;
@@ -43,68 +63,68 @@ body #et-boc .et-l .hs-form .hs-input[type="radio"] {
 }
 
 
-body #et-boc .et-l .hs-form .hs-input[type="file"] {
+body #et-boc .et-l .et_pb_module .hs-form .hs-input[type="file"] {
   padding: initial;
   border: initial;
   line-height: initial;
   box-shadow: none;
 }
 
-body #et-boc .et-l .hs-form select.is-placeholder {
+body #et-boc .et-l .et_pb_module .hs-form select.is-placeholder {
   color: #bfbfbf;
 }
-body #et-boc .et-l .hs-form select.is-placeholder:focus {
+body #et-boc .et-l .et_pb_module .hs-form select.is-placeholder:focus {
   color: #33475b;
 }
-body #et-boc .et-l .hs-form .hs-input:-moz-placeholder {
+body #et-boc .et-l .et_pb_module .hs-form .hs-input:-moz-placeholder {
   color: #bfbfbf;
 }
-body #et-boc .et-l .hs-form .hs-input::-webkit-input-placeholder {
+body #et-boc .et-l .et_pb_module .hs-form .hs-input::-webkit-input-placeholder {
   color: #bfbfbf;
 }
-body #et-boc .et-l .hs-form .hs-input option:disabled {
+body #et-boc .et-l .et_pb_module .hs-form .hs-input option:disabled {
   color: #bfbfbf;
 }
-body #et-boc .et-l .hs-form .hs-input input,
-body #et-boc .et-l .hs-form .hs-input textarea {
+body #et-boc .et-l .et_pb_module .hs-form .hs-input input,
+body #et-boc .et-l .et_pb_module .hs-form .hs-input textarea {
   transition: border 0.2s linear;
 }
 
 
-body #et-boc .et-l .hs-form .hs-input:focus,
-body #et-boc .et-l .hs-form input.text:focus,
-body #et-boc .et-l .hs-form input.title:focus,
-body #et-boc .et-l .hs-form input[type="text"]:focus,
-body #et-boc .et-l .hs-form select:focus,
-body #et-boc .et-l .hs-form textarea:focus {
+body #et-boc .et-l .et_pb_module .hs-form .hs-input:focus,
+body #et-boc .et-l .et_pb_module .hs-form input.text:focus,
+body #et-boc .et-l .et_pb_module .hs-form input.title:focus,
+body #et-boc .et-l .et_pb_module .hs-form input[type="text"]:focus,
+body #et-boc .et-l .et_pb_module .hs-form select:focus,
+body #et-boc .et-l .et_pb_module .hs-form textarea:focus {
   outline: none;
   border-color: rgba(82, 168, 236, 0.8);
 }
 
 
-body #et-boc .et-l .hs-form textarea.hs-input {
+body #et-boc .et-l .et_pb_module .hs-form textarea.hs-input {
   height: auto;
 }
 
-body #et-boc .et-l .hs-form select[multiple].hs-input {
+body #et-boc .et-l .et_pb_module .hs-form select[multiple].hs-input {
   height: inherit;
 }
 
-body #et-boc .et-l .hs-form input.hs-input.error,
-body #et-boc .et-l .hs-form div.field.error input,
-body #et-boc .et-l .hs-form div.field.error textarea,
-body #et-boc .et-l .hs-form div.field.error .chzn-choices,
-body #et-boc .et-l .hs-form textarea.hs-input.error,
-body #et-boc .et-l .hs-form select.hs-input.error {
+body #et-boc .et-l .et_pb_module .hs-form input.hs-input.error,
+body #et-boc .et-l .et_pb_module .hs-form div.field.error input,
+body #et-boc .et-l .et_pb_module .hs-form div.field.error textarea,
+body #et-boc .et-l .et_pb_module .hs-form div.field.error .chzn-choices,
+body #et-boc .et-l .et_pb_module .hs-form textarea.hs-input.error,
+body #et-boc .et-l .et_pb_module .hs-form select.hs-input.error {
   border-color: #c87872;
 }
 
-body #et-boc .et-l .hs-form input.hs-input.error:focus,
-body #et-boc .et-l .hs-form div.field.error input:focus,
-body #et-boc .et-l .hs-form div.field.error textarea:focus,
-body #et-boc .et-l .hs-form div.field.error .chzn-choices:focus,
-body #et-boc .et-l .hs-form textarea.hs-input.error:focus,
-body #et-boc .et-l .hs-form select.hs-input.error:focus {
+body #et-boc .et-l .et_pb_module .hs-form input.hs-input.error:focus,
+body #et-boc .et-l .et_pb_module .hs-form div.field.error input:focus,
+body #et-boc .et-l .et_pb_module .hs-form div.field.error textarea:focus,
+body #et-boc .et-l .et_pb_module .hs-form div.field.error .chzn-choices:focus,
+body #et-boc .et-l .et_pb_module .hs-form textarea.hs-input.error:focus,
+body #et-boc .et-l .et_pb_module .hs-form select.hs-input.error:focus {
   border-color: #b9554d;
 }
 
