@@ -1,8 +1,11 @@
-/*Last Updated 6/18/24*/
+/*Last Updated 7/17/24*/
 /*=============================================================================
 =========== Brand Level Styling for placement in document style tag ===========
 ===============================================================================*/
-
+.hs_emx_cross_marketing_eligibility {
+    clear: both;
+    padding-top: 1.5rem;
+}
 
 /*assign brand level default link colors*/
 
