@@ -1,7 +1,22 @@
-/*Last Updated 6/17/24 3:47PM*/
+/*Last Updated 7/19/24*/
 /*=============================================================================
 =========== Brand Level Styling for placement in document style tag ===========
 ===============================================================================*/
+.hs_emx_cross_marketing_eligibility label {
+    color:#808285;
+}
+
+.hs-input[type="checkbox"], .hs-input[type="radio"]{
+    border:1px solid #D8D8DA;
+}
+
+.hs_emx_cross_marketing_eligibility label {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400 !important;
+}
+
+
 body form div > input[type=text]{
     width:100%;
 }
