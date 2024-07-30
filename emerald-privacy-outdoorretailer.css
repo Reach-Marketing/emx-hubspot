@@ -1,8 +1,71 @@
-/*Last updated 6/11/24*/
+/*Last updated 7/30/24*/
 
 /*=============================================================================
 =========== Brand Level Styling for placement in document style tag ===========
 ===============================================================================*/
+body.et-db #et-boc .et-l .et_pb_module input[type=text],
+body.et-db #et-boc .et-l .et_pb_module input[type=email],
+body.et-db #et-boc .et-l .et_pb_module input[type=tel]{
+    background-color:#f5f8fa;
+    width:100%;
+    min-height: 40px;
+    padding: 9px 10px;
+    font-size: 16px !important;
+    font-weight: 500;
+    line-height: 22px;
+    color: #33475b;
+    border: 1px solid #cbd6e2;
+    box-sizing: border-box;
+    border-radius: 3px;
+    
+}
+
+body.single #content form .hs-richtext p, body.single #content form .hs-richtext p a {
+    font-size: 14px !important;
+    font-weight: 500;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+#content form input.hs-button[type="submit"] {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin: 1.5em 0 !important;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 12px;
+    position: relative;
+    text-align: center;
+    transition: all 0.15s linear;
+    background-color: #8BCEE7 !important;
+    border-color: #8BCEE7 !important;
+    color: #fff !important;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px !important;
+    font-size: 16px !important;
+    padding: 12px 24px !important;
+}
+
+#content .field {
+    margin-bottom: 18px !important;
+}
+
+.hs_recaptcha.hs-recaptcha.field.hs-form-field {
+    margin-top: 1.5rem !important;
+}
+
+form{
+    margin-bottom:3rem!important
+}
+
+.inputs-list {
+    margin-left: 0 !important;
+}
+
+label.hs-form-checkbox-display .hs-input {
+    margin-right: 6px !important;
+    margin-bottom: 6px !important;
+}
 
 
 /*assign brand level default link colors*/
