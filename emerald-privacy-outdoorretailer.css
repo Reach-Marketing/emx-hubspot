@@ -1,8 +1,18 @@
-/*Last updated 7/30/24*/
+/*Last updated 7/31/24*/
 
 /*=============================================================================
 =========== Brand Level Styling for placement in document style tag ===========
 ===============================================================================*/
+
+.hs-form-booleancheckbox input{
+    margin-right:6px!important;
+    margin-top:3px!important;
+}
+
+body.single #content a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1em!important;
+}
 body.et-db #et-boc .et-l .et_pb_module input[type=text],
 body.et-db #et-boc .et-l .et_pb_module input[type=email],
 body.et-db #et-boc .et-l .et_pb_module input[type=tel]{
