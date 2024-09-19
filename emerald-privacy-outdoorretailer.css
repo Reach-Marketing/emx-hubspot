@@ -1,4 +1,4 @@
-/*Last updated 7/31/24*/
+/*Last updated 9/19/24*/
 
 /*=============================================================================
 =========== Brand Level Styling for placement in document style tag ===========
@@ -46,8 +46,8 @@ body.single #content form .hs-richtext p, body.single #content form .hs-richtext
     position: relative;
     text-align: center;
     transition: all 0.15s linear;
-    background-color: #8BCEE7 !important;
-    border-color: #8BCEE7 !important;
+    background-color: #3E4223 !important;
+    border-color: #3E4223 !important;
     color: #fff !important;
     border-radius: 3px;
     border-style: solid;
@@ -103,8 +103,8 @@ input.hs-button[type="submit"] {
     position: relative;
     text-align: center;
     transition: all 0.15s linear;
-    background-color: #8BCEE7;
-    border-color: #8BCEE7;
+    background-color: #3E4223;
+    border-color: #3E4223;
     color: #fff;
     border-radius: 3px;
     border-style: solid;
@@ -114,8 +114,8 @@ input.hs-button[type="submit"] {
 }
 
 input.hs-button[type="submit"]:hover:not(.inactive) {
-    background: #8BCEE7;
-    border-color: #8BCEE7;
+    background: #3E4223;
+    border-color: #3E4223;
     color: #ffffff;
     font-size: 14px;
     line-height: 12px;
@@ -123,19 +123,19 @@ input.hs-button[type="submit"]:hover:not(.inactive) {
 }
 
 input.hs-button[type="submit"]:hover:not(.inactive) {
-    background: #8BCEE7;
-    border-color: #8BCEE7;
+    background: #3E4223;
+    border-color: #3E4223;
 }
 
 .hs-button:hover,
 .hs-button:focus {
-  background-color: #8BCEE7;
-  border-color: #8BCEE7;
+  background-color: #3E4223;
+  border-color: #3E4223;
 }
 
 .hs-button:active {
-  background-color: #8BCEE7;
-  border-color: #8BCEE7;
+  background-color: #3E4223;
+  border-color: #3E4223;
 }
 
 
