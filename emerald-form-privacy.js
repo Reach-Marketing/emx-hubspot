@@ -1,3 +1,4 @@
+/*Last Updated 11/19/24*/
 window.addEventListener('message', event => {
   if(event.data.type === 'hsFormCallback' && event.data.eventName === 'onFormReady') {
     
@@ -19,12 +20,17 @@ window.addEventListener('message', event => {
          let hsform = hsforms[0];
 
          let country = hsform.querySelector("[name='country_dropdown']");
+         let country_salesforce = hsform.querySelector("[name='emx_country_salesforce']");
          let emx_form_type = hsform.querySelector("[name='emx_form_type']");
          let emx_cross_marketing_eligibility = hsform.querySelector("[name='emx_cross_marketing_eligibility']");
          let privacyPolicy = hsform.querySelector(".hs_consent_to_privacy_policy");
+         let recaptcha = hsform.querySelector(".hs_recaptcha");
 
-         if(country === null || emx_form_type === null || emx_cross_marketing_eligibility === null || privacyPolicy === null) {           
-           console.log(`Form found "hsForm_${event.data.id}" but missing required fields: country_dropdown, emx_form_type, emx_cross_marketing_eligibility, consent_to_privacy_policy`)
+         if( (country === null && country_salesforce === null) || emx_form_type === null || emx_cross_marketing_eligibility === null || privacyPolicy === null || recaptcha === null) {           
+           console.log(`Form found "hsForm_${event.data.id}" but missing required fields: country_dropdown/emx_country_salesforce, emx_form_type, emx_cross_marketing_eligibility, consent_to_privacy_policy, recaptcha`);
+         }
+         else if (country!== null && country_salesforce !== null) {
+          console.log(`Form found "hsForm_${event.data.id}" but country_dropdown and emx_country_salesforce are included`);
          }
          else {
 
@@ -32,11 +38,10 @@ window.addEventListener('message', event => {
 
            let privacyPolicyInput = privacyPolicy.querySelector("input");
 
-           let countrySelectValue = country.value;
+           let countrySelectValue = (country === null) ? country_salesforce.value : country.value;
            let isUS = (countrySelectValue === "United States") ? true : false;
 
            let submitButton = hsform.querySelector(".hs_submit");
-           let recaptcha = hsform.querySelector(".hs_recaptcha");
            let legalConsentContainer = hsform.querySelector(".legal-consent-container");
 
           let subscriptionLabel = hsform.querySelectorAll(".legal-consent-container > div.hs-richtext:first-child");
@@ -106,20 +111,39 @@ window.addEventListener('message', event => {
              }
            }
 
-           country.addEventListener("change", (event) => {
-             countrySelectValue = `${event.target.value}`;
-             isUS = (countrySelectValue === "United States") ? true : false;
-             if(isUS)
-             {
-               handleCountryChange(true);
+           if(country !== null)
+           {
+              country.addEventListener("change", (event) => {
+                countrySelectValue = `${event.target.value}`;
+                isUS = (countrySelectValue === "United States") ? true : false;
+                if(isUS)
+                {
+                  handleCountryChange(true);
 
-             }
-             else
-             {
-               handleCountryChange(false);
+                }
+                else
+                {
+                  handleCountryChange(false);
 
-             }
-           });
+                }
+              });
+          }
+          else {
+              country_salesforce.addEventListener("change", (event) => {
+                countrySelectValue = `${event.target.value}`;
+                isUS = (countrySelectValue === "United States") ? true : false;
+                if(isUS)
+                {
+                  handleCountryChange(true);
+  
+                }
+                else
+                {
+                  handleCountryChange(false);
+  
+                }
+              });
+          }
 
            function handlePrivacyChange(isUS) {
 
