@@ -1,17 +1,17 @@
-/*Last Updated 5/23/24*/
+/*Last Updated 12/4/24*/
 /*=============================================================================
 =========== Brand Level Styling for placement in document style tag ===========
 ===============================================================================*/
 /*assign brand level default link colors*/
 body .hbspt-form a {
-    color: #449fd8!important;
+    color: #33475b!important;
 }
 
 body .hbspt-form a {
-    color: #449fd8!important;
+    color: #33475b!important;
 }
 body .hbspt-form a:hover {
-    color: #449fd8!important;
+    color: #33475b!important;
 }
 /*control button styles for all submit buttons*/
 
@@ -64,12 +64,12 @@ input.hs-button[type="submit"]:hover:not(.inactive) {
 /*globally assign color to links*/
 
 #sidebar a {
-    color: #449fd8;
+    color: #33475b;
 }	
 
 
 #sidebar a:hover{
-    color: #449fd8;
+    color: #33475b;
 }
 
 /*control padding below error messages below inputs*/
