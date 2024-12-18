@@ -2,7 +2,37 @@
 /*=============================================================================
 =========== Brand Level Styling for placement in document style tag ===========
 ===============================================================================*/
+/*form adjustments below*/
 
+.hs-form fieldset {
+    max-width: 100%!important;
+}
+
+#hubspotFrm input, #hubspotFrm textarea {
+    max-width: 100%!important;
+    width: 100%!important;
+}
+
+#hubspotFrm input[type=checkbox]{
+    max-width: none!important;
+    width: fit-content!important;
+}
+
+body #hubspotFrm select {
+    max-width: 100%;
+    width: 100%;
+}
+
+#hubspotFrm input.hs-button[type="submit"] {
+    width: 110px !important;
+}
+
+#hubspotFrm .input {
+    margin-right: 1.5rem !important;
+}
+
+#hubspotFrm .hs-button {
+    border: 1px solid #e32726;}
 .elementor .legal-consent-container a {
     text-decoration: underline;
   }
