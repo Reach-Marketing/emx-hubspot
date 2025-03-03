@@ -1,7 +1,23 @@
-/*Last updated 6/14/24*/
+/*Last updated 3/3/25*/
 /*=============================================================================
 =========== Brand Level Styling for placement in document style tag ===========
 ===============================================================================*/
+#hsForm_832dc9d7-8330-4374-a18d-b066d6057965_9333 .legal-consent-container, #hsForm_832dc9d7-8330-4374-a18d-b066d6057965_9333 .legal-consent-container .hs-richtext, #hsForm_832dc9d7-8330-4374-a18d-b066d6057965_9333 .legal-consent-container .hs-richtext p,
+#hsForm_832dc9d7-8330-4374-a18d-b066d6057965_9333 .inputs-list>li.hs-form-checkbox label, #hsForm_832dc9d7-8330-4374-a18d-b066d6057965_9333 .inputs-list>li.hs-form-radio label{
+  font-family: Fira Sans, sans-serif !important;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+#hsForm_832dc9d7-8330-4374-a18d-b066d6057965_9333 .inputs-list label{
+  font-weight:400;
+}
+
+#hsForm_832dc9d7-8330-4374-a18d-b066d6057965_9333 input[type=checkbox]{
+  border: 1px solid #d3d3d3;
+  margin:0 12px 3px 0;
+}
+
 /*BEGIN styles to overrule preexisting site styles*/
 
 .hs-form-field input[type="text"], .hs-form-field input[type="email"], .hs-form-field input[type="password"], .hs-form-field input[type="url"]{
