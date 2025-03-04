@@ -1,9 +1,10 @@
-/*Last updated 3/3/25*/
+/*Last updated 3/4/25*/
 /*=============================================================================
 =========== Brand Level Styling for placement in document style tag ===========
 ===============================================================================*/
 #hsForm_832dc9d7-8330-4374-a18d-b066d6057965_9333 .legal-consent-container, #hsForm_832dc9d7-8330-4374-a18d-b066d6057965_9333 .legal-consent-container .hs-richtext, #hsForm_832dc9d7-8330-4374-a18d-b066d6057965_9333 .legal-consent-container .hs-richtext p,
-#hsForm_832dc9d7-8330-4374-a18d-b066d6057965_9333 .inputs-list>li.hs-form-checkbox label, #hsForm_832dc9d7-8330-4374-a18d-b066d6057965_9333 .inputs-list>li.hs-form-radio label{
+#hsForm_832dc9d7-8330-4374-a18d-b066d6057965_9333 .inputs-list>li.hs-form-checkbox label, #hsForm_832dc9d7-8330-4374-a18d-b066d6057965_9333 .inputs-list>li.hs-form-radio label,
+#hsForm_832dc9d7-8330-4374-a18d-b066d6057965_9333 .legal-consent-container .hs-richtext a{
   font-family: Fira Sans, sans-serif !important;
     font-size: 12px;
     line-height: 16px;
