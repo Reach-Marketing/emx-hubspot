@@ -49,7 +49,7 @@ input.hs-button[type="submit"] {
 }
 
 input.hs-button[type="submit"]:hover:not(.inactive) {
-    background: #D71921;
+    background: #ed0a9b;
     border-color: #ed0a9b;
     color: #ffffff;
     font-size: 14px;
