@@ -39,7 +39,7 @@ input.hs-button[type="submit"] {
 input.hs-button[type="submit"]:hover:not(.inactive) {
     background: #00AEEF;
     border-color: #00AEEF;
-    color: #ffffff;
+    color: #000000;
     font-size: 14px;
     line-height: 12px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
