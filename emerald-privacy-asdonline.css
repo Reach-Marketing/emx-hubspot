@@ -4,7 +4,7 @@
 ===============================================================================*/
 form .hs-fieldtype-checkbox label {
     height: auto;
-    font-weight: 700!important;
+
 }
 body .hs-form input[type=checkbox]{
     -webkit-appearance: auto;
