@@ -20,6 +20,9 @@ label.hs-form-checkbox-display {
     margin-top: 1em;
 }
 
+label {
+    font-weight: 700!important;
+}
 
 body form .legal-consent-container .hs-form-booleancheckbox-display>span{
     margin-left: 0rem !important;
