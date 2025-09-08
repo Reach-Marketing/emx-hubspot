@@ -7,19 +7,23 @@
 
 
 body .hbspt-form a {
-    color: #FFC70A!important;
+    color: #4A89DC!important;
 }
 
 body .hbspt-form a {
-    color: #FFC70A!important;
+    color: #4A89DC!important;
 }
 body .hbspt-form a:hover {
-    color: #FFC70A!important;
+    color: #4A89DC!important;
+
+body .hbspt-form a:active {
+    color: #F4A300!important;
+   
 }
 /*control button styles for all submit buttons*/
 
 input.hs-button[type="submit"] {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Verdura, "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
     cursor: pointer;
     display: inline-block;
@@ -28,8 +32,8 @@ input.hs-button[type="submit"] {
     position: relative;
     text-align: center;
     transition: all 0.15s linear;
-    background-color: #4DC2C4;
-    border-color: #4DC2C4;
+    background-color: #4A89DC;
+    border-color: #4A89DC;
     color: #fff;
     border-radius: 3px;
     border-style: solid;
@@ -39,40 +43,42 @@ input.hs-button[type="submit"] {
 }
 
 input.hs-button[type="submit"]:hover:not(.inactive) {
-    background: #4DC2C4;
-    border-color: #4DC2C4;
+    background: #4A89DC;
+    border-color: #4A89DC;
     color: #ffffff;
     font-size: 14px;
     line-height: 12px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    : "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 input.hs-button[type="submit"]:hover:not(.inactive) {
-    background: #4DC2C4;
-    border-color: #4DC2C4;
+    background: #4A89DC;
+    border-color: #4A89DC;
 }
 
 .hs-button:hover,
 .hs-button:focus {
-  background-color: #4DC2C4;
-  border-color: #4DC2C4;
+  background-color: #4A89DC;
+  border-color: #4A89DC;
 }
 
 .hs-button:active {
-  background-color: #4DC2C4;
-  border-color: #4DC2C4;
+  background-color: #4A89DC;
+  border-color: #4A89DC;
 }
 
 
 /*globally assign color to links*/
 
 #sidebar a {
-    color: #FFC70A;
+    color: #4A89DC;
+}	
+#sidebar a:active {
+    color: #F4A300;
 }	
 
-
 #sidebar a:hover{
-    color: #FFC70A;
+    color: #4A89DC;
 }
 
 /*control padding below error messages below inputs*/
