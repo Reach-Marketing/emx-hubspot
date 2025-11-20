@@ -14,7 +14,7 @@ body .hbspt-form a {
     color: #4A89DC!important;
 }
 body .hbspt-form a:hover {
-    color: #4A89DC!important;
+    color: #F4A300!important;
 
 body .hbspt-form a:active {
     color: #F4A300!important;
@@ -32,8 +32,8 @@ input.hs-button[type="submit"] {
     position: relative;
     text-align: center;
     transition: all 0.15s linear;
-    background-color: #4A89DC;
-    border-color: #4A89DC;
+    background-color: #4A89DC !important;
+    border-color: #4A89DC !important;
     color: #fff;
     border-radius: 3px;
     border-style: solid;
@@ -43,8 +43,8 @@ input.hs-button[type="submit"] {
 }
 
 input.hs-button[type="submit"]:hover:not(.inactive) {
-    background: #4A89DC;
-    border-color: #4A89DC;
+    background: #4A89DC !important;
+    border-color: #4A89DC !important;
     color: #ffffff;
     font-size: 14px;
     line-height: 12px;
@@ -52,19 +52,19 @@ input.hs-button[type="submit"]:hover:not(.inactive) {
 }
 
 input.hs-button[type="submit"]:hover:not(.inactive) {
-    background: #4A89DC;
-    border-color: #4A89DC;
+    background: #4A89DC !important;
+    border-color: #4A89DC !important;
 }
 
 .hs-button:hover,
 .hs-button:focus {
-  background-color: #4A89DC;
-  border-color: #4A89DC;
+  background-color: #F4A300 !important;
+  border-color: #F4A300 !important;
 }
 
 .hs-button:active {
-  background-color: #4A89DC;
-  border-color: #4A89DC;
+  background-color: #4A89DC !important;
+  border-color: #4A89DC !important;
 }
 
 
