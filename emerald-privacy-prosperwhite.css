@@ -40,8 +40,8 @@ input.hs-button[type="submit"] {
     position: relative;
     text-align: center;
     transition: all 0.15s linear;
-    background-color: #4A89DC;
-    border-color: #4A89DC;
+    background-color: #ff9900;
+    border-color: #ff9900;
     color: #fff;
     border-radius: 3px;
     border-style: solid;
