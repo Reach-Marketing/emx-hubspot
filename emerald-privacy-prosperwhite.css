@@ -6,6 +6,9 @@
 body .hbspt-form p {
 color: #ffffff !important;
 }
+    body .hbspt-form {
+        color: #ffffff !important;
+}
 
 
 /*assign brand level default link colors*/
