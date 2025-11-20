@@ -38,7 +38,7 @@ input.hs-button[type="submit"] {
 }
 
 input.hs-button[type="submit"]:hover:not(.inactive) {
-    background: #FF0201;
+    background: #000000;
     border-color: #FF0201;
     color: #ffffff;
     font-size: 14px;
@@ -47,18 +47,18 @@ input.hs-button[type="submit"]:hover:not(.inactive) {
 }
 
 input.hs-button[type="submit"]:hover:not(.inactive) {
-    background: #FF0201;
+    background: #000000;
     border-color: #FF0201;
 }
 
 .hs-button:hover,
 .hs-button:focus {
-  background-color: #FF0201;
+  background-color: #000000;
   border-color: #FF0201;
 }
 
 .hs-button:active {
-  background-color: #FF0201;
+  background-color: #000000;
   border-color: #FF0201;
 }
 
