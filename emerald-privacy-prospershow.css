@@ -1,10 +1,9 @@
-/*Last Updated 5/28/24*/
+/*Last Updated 11.20.25*/
 
 /*=============================================================================
 =========== Brand Level Styling for placement in document style tag ===========
 ===============================================================================*/
 /*assign brand level default link colors*/
-
 
 body .hbspt-form a {
     color: #4A89DC!important;
@@ -15,11 +14,11 @@ body .hbspt-form a {
 }
 body .hbspt-form a:hover {
     color: #F4A300!important;
-
-body .hbspt-form a:active {
-    color: #F4A300!important;
-   
 }
+body .hbspt-form a:active {
+    color: #4A89DC!important;
+}
+
 /*control button styles for all submit buttons*/
 
 input.hs-button[type="submit"] {
@@ -32,8 +31,8 @@ input.hs-button[type="submit"] {
     position: relative;
     text-align: center;
     transition: all 0.15s linear;
-    background-color: #4A89DC !important;
-    border-color: #4A89DC !important;
+    background-color: #4A89DC;
+    border-color: #4A89DC;
     color: #fff;
     border-radius: 3px;
     border-style: solid;
@@ -43,8 +42,8 @@ input.hs-button[type="submit"] {
 }
 
 input.hs-button[type="submit"]:hover:not(.inactive) {
-    background: #4A89DC !important;
-    border-color: #4A89DC !important;
+    background: #4A89DC;
+    border-color: #4A89DC;
     color: #ffffff;
     font-size: 14px;
     line-height: 12px;
@@ -52,19 +51,19 @@ input.hs-button[type="submit"]:hover:not(.inactive) {
 }
 
 input.hs-button[type="submit"]:hover:not(.inactive) {
-    background: #4A89DC !important;
-    border-color: #4A89DC !important;
+    background: #4A89DC;
+    border-color: #4A89DC;
 }
 
 .hs-button:hover,
 .hs-button:focus {
-  background-color: #F4A300 !important;
-  border-color: #F4A300 !important;
+  background-color: #F4A300;
+  border-color: #F4A300;
 }
 
 .hs-button:active {
-  background-color: #4A89DC !important;
-  border-color: #4A89DC !important;
+  background-color: #F4A300;
+  border-color: #F4A300;
 }
 
 
@@ -78,7 +77,7 @@ input.hs-button[type="submit"]:hover:not(.inactive) {
 }	
 
 #sidebar a:hover{
-    color: #4A89DC;
+    color: #F4A300;
 }
 
 /*control padding below error messages below inputs*/
