@@ -27,7 +27,7 @@ input.hs-button[type="submit"] {
     position: relative;
     text-align: center;
     transition: all 0.15s linear;
-    background-color: #000000;
+    background-color: #FF0201;
     border-color: #FF0201;
     color: #fff;
     border-radius: 3px;
@@ -38,7 +38,7 @@ input.hs-button[type="submit"] {
 }
 
 input.hs-button[type="submit"]:hover:not(.inactive) {
-    background: #000000;
+    background: #FF0201;
     border-color: #FF0201;
     color: #ffffff;
     font-size: 14px;
@@ -47,18 +47,18 @@ input.hs-button[type="submit"]:hover:not(.inactive) {
 }
 
 input.hs-button[type="submit"]:hover:not(.inactive) {
-    background: #000000;
+    background: #FF0201;
     border-color: #FF0201;
 }
 
 .hs-button:hover,
 .hs-button:focus {
-  background-color: #000000;
+  background-color: #FF0201;
   border-color: #FF0201;
 }
 
 .hs-button:active {
-  background-color: #000000;
+  background-color: #FF0201;
   border-color: #FF0201;
 }
 
