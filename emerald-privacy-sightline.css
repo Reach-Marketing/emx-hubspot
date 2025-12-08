@@ -1,4 +1,4 @@
-/*Last Updated 7/18/24*/
+/*Last Updated 12.08.25*/
 /*=============================================================================
 =========== Brand Level Styling for placement in document style tag ===========
 ===============================================================================*/
@@ -12,39 +12,39 @@
 }
 
 body .hs-form-checkbox span, body .hs-form-radio span{
-    color: #003B4D!important;
+    color: #FE4E6E!important;
 
 }
 
 /*assign brand level default link colors*/
 
 body .hbspt-form a {
-    color: #003B4D!important;
+    color: #FE4E6E!important;
 }
 
 body .hbspt-form a {
-    color: #003B4D!important;
+    color: #FE4E6E!important;
 }
 body .hbspt-form a:hover {
-    color: #003B4D!important;
+    color: #FE4E6E!important;
 }
 
 /*control button styles for all submit buttons*/
 
 input.hs-button[type="submit"] {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
     cursor: pointer;
     display: inline-block;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 12px;
     position: relative;
     text-align: center;
     transition: all 0.15s linear;
-    background-color: #003B4D;
-    border-color: #003B4D;
+    background-color: #FE4E6E;
+    border-color: #FE4E6E;
     color: #fff;
-    border-radius: 3px;
+    border-radius: 20px;
     border-style: solid;
     border-width: 1px;
     font-size: 14px;
@@ -52,40 +52,40 @@ input.hs-button[type="submit"] {
 }
 
 input.hs-button[type="submit"]:hover:not(.inactive) {
-    background: #003B4D;
-    border-color: #003B4D;
+    background: #FE4E6E;
+    border-color: #FE4E6E;
     color: #ffffff;
     font-size: 14px;
     line-height: 12px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 input.hs-button[type="submit"]:hover:not(.inactive) {
-    background: #003B4D;
-    border-color: #003B4D;
+    background: #FE4E6E;
+    border-color: #FE4E6E;
 }
 
 .hs-button:hover,
 .hs-button:focus {
-  background-color: #003B4D;
-  border-color: #003B4D;
+  background-color: #FE4E6E;
+  border-color: #FE4E6E;
 }
 
 .hs-button:active {
-  background-color: #003B4D;
-  border-color: #003B4D;
+  background-color: #FE4E6E;
+  border-color: #FE4E6E;
 }
 
 
 /*globally assign color to links*/
 
 #sidebar a {
-    color: #003B4D;
+    color: #FE4E6E;
 }	
 
 
 #sidebar a:hover{
-    color: #003B4D;
+    color: #FE4E6E;
 }
 
 /*control padding below error messages below inputs*/
