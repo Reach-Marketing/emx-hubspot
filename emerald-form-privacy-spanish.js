@@ -47,7 +47,7 @@ window.addEventListener('message', event => {
           let subscriptionLabel = hsform.querySelectorAll(".legal-consent-container > div.hs-richtext:first-child");
 
            /* set checkbox label for privacy policy */
-           privacyPolicy.querySelector(`[for^="consent_to_privacy_policy-${event.data.id}"]`).children[1].innerHTML = "I agree to the EmeraldX <a href='https://www.emeraldx.com/privacy-policy/' target='_blank'>Privacy Policy</a>.<span class='hs-form-required'>*</span>";
+           privacyPolicy.querySelector(`[for^="consent_to_privacy_policy-${event.data.id}"]`).children[1].innerHTML = "Acepto <a href='https://www.emeraldx.com/privacy-policy/' target='_blank'>la Política de Privacidad de EmeraldX</a>.<span class='hs-form-required'>*</span>";
 
            /* define privacy policy label */
             if(emx_form_type.value==="Sponsor") {
@@ -55,7 +55,7 @@ window.addEventListener('message', event => {
             }
             else
             {
-              legalConsentContainer.insertAdjacentHTML("afterbegin",`<div class="hs-richtext"><p>By submitting this form, I agree to the EmeraldX <a href='https://www.emeraldx.com/privacy-policy/' target='_blank'>Privacy Policy</a>.</p></div>`);
+              legalConsentContainer.insertAdjacentHTML("afterbegin",`<div class="hs-richtext"><p>Al enviar este formulario, acepto <a href='https://www.emeraldx.com/privacy-policy/' target='_blank'>la Política de Privacidad de EmeraldX</a>.</p></div>`);
             }
 
            /* move privacy policy field into consent container after initial consent text */
@@ -80,10 +80,10 @@ window.addEventListener('message', event => {
                hsform.querySelector("label[for^='emx_cross_marketing_eligibility1']").parentElement.style = "display: block";
 
                if(emx_form_type.value==="Sponsor") {
-                 hsform.querySelector(`[id^='label-emx_cross_marketing_eligibility-${event.data.id}']`).innerHTML = "From time to time, Emerald may wish to contact you about other relevant products and services, as well as other content that may be of interest to you. If you do not wish to receive other relevant communications and offers from Emerald, please check this box:";
+                 hsform.querySelector(`[id^='label-emx_cross_marketing_eligibility-${event.data.id}']`).innerHTML = "De vez en cuando, Emerald podría ponerse en contacto con usted para informarle sobre otros productos y servicios relevantes, así como sobre otros contenidos que puedan ser de su interés. Si no desea recibir otras comunicaciones y ofertas de Emerald, marque esta casilla::";
                }
                else {
-                 hsform.querySelector(`[id^='label-emx_cross_marketing_eligibility-${event.data.id}']`).innerHTML = "Emerald is committed to protecting and respecting your privacy, and we'll only use your personal information to provide the products and services you requested from us. From time to time, we may wish to contact you about other products and services, as well as other content that may be of interest to you. If you do not wish to receive other relevant communications and offers, please check this box:";
+                 hsform.querySelector(`[id^='label-emx_cross_marketing_eligibility-${event.data.id}']`).innerHTML = "Emerald se compromete a proteger y respetar tu privacidad, y solo utilizaremos tu información personal para proporcionar los productos y servicios solicitados. De vez en cuando, podemos contactarte sobre otros productos, servicios o contenido de interés. Si no deseas recibir otras comunicaciones u ofertas relevantes, marca esta casilla:";
                }
 
              }
@@ -103,10 +103,10 @@ window.addEventListener('message', event => {
                hsform.querySelector("label[for^='emx_cross_marketing_eligibility1']").parentElement.style = "display: none";
 
                if(emx_form_type.value==="Sponsor") {
-                 hsform.querySelector(`[id^='label-emx_cross_marketing_eligibility-${event.data.id}']`).innerHTML = "From time to time, Emerald may wish to contact you about other relevant products and services, as well as other content that may be of interest to you.";
+                 hsform.querySelector(`[id^='label-emx_cross_marketing_eligibility-${event.data.id}']`).innerHTML = "De vez en cuando, Emerald podría ponerse en contacto con usted para informarle sobre otros productos y servicios relevantes, así como sobre otros contenidos que puedan ser de su interés.";
                }
                else {
-                 hsform.querySelector(`[id^='label-emx_cross_marketing_eligibility-${event.data.id}']`).innerHTML = "Emerald is committed to protecting and respecting your privacy, and we'll only use your personal information to provide the products and services you requested from us. From time to time, we may wish to contact you about other products and services, as well as other content that may be of interest to you.";
+                 hsform.querySelector(`[id^='label-emx_cross_marketing_eligibility-${event.data.id}']`).innerHTML = "Emerald se compromete a proteger y respetar su privacidad, y solo utilizaremos su información personal para proporcionarle los productos y servicios que nos ha solicitado. De vez en cuando, es posible que nos pongamos en contacto con usted para informarle sobre otros productos y servicios, así como sobre otros contenidos que puedan ser de su interés.";
                }
              }
            }
