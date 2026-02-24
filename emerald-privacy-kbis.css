@@ -1,17 +1,17 @@
-/*Last Updated 7/28/25*/
+/*Last Updated 2/24/26*/
 /*=============================================================================
 =========== Brand Level Styling for placement in document style tag ===========
 ===============================================================================*/
 /*assign brand level default link colors*/
 body .hbspt-form a {
-    color: #00AEEF!important;
+    color: #BB0606!important;
 }
 
 body .hbspt-form a {
-    color: #00AEEF!important;
+    color: #BB0606!important;
 }
 body .hbspt-form a:hover {
-    color: #00AEEF!important;
+    color: #BB0606!important;
 }
 
 /*control button styles for all submit buttons*/
@@ -26,8 +26,8 @@ input.hs-button[type="submit"] {
     position: relative;
     text-align: center;
     transition: all 0.15s linear;
-    background-color: #00AEEF;
-    border-color: #00AEEF;
+    background-color: #BB0606;
+    border-color: #BB0606;
     color: #000000;
     border-radius: 3px;
     border-style: solid;
@@ -37,8 +37,8 @@ input.hs-button[type="submit"] {
 }
 
 input.hs-button[type="submit"]:hover:not(.inactive) {
-    background: #00AEEF;
-    border-color: #00AEEF;
+    background: #BB0606;
+    border-color: #BB0606;
     color: #000000;
     font-size: 14px;
     line-height: 12px;
@@ -46,31 +46,31 @@ input.hs-button[type="submit"]:hover:not(.inactive) {
 }
 
 input.hs-button[type="submit"]:hover:not(.inactive) {
-    background: #00AEEF;
-    border-color: #00AEEF;
+    background: #BB0606;
+    border-color: #BB0606;
 }
 
 .hs-button:hover,
 .hs-button:focus {
-  background-color: #00AEEF;
-  border-color: #00AEEF;
+  background-color: #BB0606;
+  border-color: #BB0606;
 }
 
 .hs-button:active {
-  background-color: #00AEEF;
-  border-color: #00AEEF;
+  background-color: #BB0606;
+  border-color: #BB0606;
 }
 
 
 /*globally assign color to links*/
 
 #sidebar a {
-    color: #00AEEF;
+    color: #BB0606;
 }	
 
 
 #sidebar a:hover{
-    color: #00AEEF;
+    color: #BB0606;
 }
 
 /*control padding below error messages below inputs*/
