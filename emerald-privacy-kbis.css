@@ -4,14 +4,14 @@
 ===============================================================================*/
 /*assign brand level default link colors*/
 body .hbspt-form a {
-    color: #BB0606!important;
+    color: #00AEEF!important;
 }
 
 body .hbspt-form a {
-    color: #BB0606!important;
+    color: #00AEEF!important;
 }
 body .hbspt-form a:hover {
-    color: #BB0606!important;
+    color: #00AEEF!important;
 }
 
 /*control button styles for all submit buttons*/
@@ -26,8 +26,8 @@ input.hs-button[type="submit"] {
     position: relative;
     text-align: center;
     transition: all 0.15s linear;
-    background-color: #BB0606;
-    border-color: #BB0606;
+    background-color: #00AEEF;
+    border-color: #00AEEF;
     color: #000000;
     border-radius: 3px;
     border-style: solid;
@@ -37,8 +37,8 @@ input.hs-button[type="submit"] {
 }
 
 input.hs-button[type="submit"]:hover:not(.inactive) {
-    background: #BB0606;
-    border-color: #BB0606;
+    background: #00AEEF;
+    border-color: #00AEEF;
     color: #000000;
     font-size: 14px;
     line-height: 12px;
@@ -46,31 +46,31 @@ input.hs-button[type="submit"]:hover:not(.inactive) {
 }
 
 input.hs-button[type="submit"]:hover:not(.inactive) {
-    background: #BB0606;
-    border-color: #BB0606;
+    background: #00AEEF;
+    border-color: #00AEEF;
 }
 
 .hs-button:hover,
 .hs-button:focus {
-  background-color: #BB0606;
-  border-color: #BB0606;
+  background-color: #00AEEF;
+  border-color: #00AEEF;
 }
 
 .hs-button:active {
-  background-color: #BB0606;
-  border-color: #BB0606;
+  background-color: #00AEEF;
+  border-color: #00AEEF;
 }
 
 
 /*globally assign color to links*/
 
 #sidebar a {
-    color: #BB0606;
+    color: #00AEEF;
 }	
 
 
 #sidebar a:hover{
-    color: #BB0606;
+    color: #00AEEF;
 }
 
 /*control padding below error messages below inputs*/
