@@ -28,7 +28,7 @@ input.hs-button[type="submit"] {
     transition: all 0.15s linear;
     background-color: #BB0606;
     border-color: #BB0606;
-    color: #000000;
+    color: #ffffff;
     border-radius: 3px;
     border-style: solid;
     border-width: 1px;
@@ -39,7 +39,7 @@ input.hs-button[type="submit"] {
 input.hs-button[type="submit"]:hover:not(.inactive) {
     background: #BB0606;
     border-color: #BB0606;
-    color: #000000;
+    color: #ffffff;
     font-size: 14px;
     line-height: 12px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
