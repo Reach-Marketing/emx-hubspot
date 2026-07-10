@@ -1,4 +1,4 @@
-/*Last Updated 12/18/24*/
+/*Last Updated 07.10.26*/
 /*=============================================================================
 =========== Brand Level Styling for placement in document style tag ===========
 ===============================================================================*/
@@ -60,8 +60,8 @@ input.hs-button[type="submit"] {
     position: relative;
     text-align: center;
     transition: all 0.15s linear;
-    background-color: #e32726;
-    border-color: #e32726;
+    background-color: #FF4E70;
+    border-color: #FF4E70;
     color: #fff;
     border-radius: 3px;
     border-style: solid;
@@ -71,8 +71,8 @@ input.hs-button[type="submit"] {
 }
 
 input.hs-button[type="submit"]:hover:not(.inactive) {
-    background: #e32726;
-    border-color: #e32726;
+    background: #FF4E70;
+    border-color: #FF4E70;
     color: #ffffff;
     font-size: 14px;
     line-height: 12px;
@@ -80,19 +80,19 @@ input.hs-button[type="submit"]:hover:not(.inactive) {
 }
 
 input.hs-button[type="submit"]:hover:not(.inactive) {
-    background: #e32726;
-    border-color: #e32726;
+    background: #FF4E70;
+    border-color: #FF4E70;
 }
 
 .hs-button:hover,
 .hs-button:focus {
-  background-color: #e32726;
-  border-color: #e32726;
+  background-color: #FF4E70;
+  border-color: #FF4E70;
 }
 
 .hs-button:active {
-  background-color: #e32726;
-  border-color: #e32726;
+  background-color: #FF4E70;
+  border-color: #FF4E70;
 }
 
 
